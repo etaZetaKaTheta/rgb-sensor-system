@@ -1,0 +1,10 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {part}{I\hspace {1em}Dokumentation}{2}{part.1}%
+\contentsline {chapter}{\numberline {1}Farberkennung}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Aufsetzen und Auslesung}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Raspberry Pi aufsetzen:}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Client-Seite (Computer oder Laptop)}{4}{subsection.1.1.2}%
+\contentsline {part}{II\hspace {1em}Code}{5}{part.2}%
+\contentsline {chapter}{\numberline {2}Quellcode}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Main.py}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}client.py}{9}{section.2.2}%

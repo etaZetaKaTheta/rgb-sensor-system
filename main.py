@@ -2,6 +2,7 @@
 
 import cv2 as cv
 import socket
+import sys
 
 from null_preview import *
 from picamera2 import *
@@ -9,7 +10,7 @@ from picamera2 import *
 currentColor = ""
 lastColor = ""
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_address = ('192.168.137.123', 18769)
+server_address = (str(sys.argv[1]), 18769)
 print('starting up on {} port {}'.format(*server_address))
 sock.bind(server_address)
 picam2 = Picamera2()
