@@ -33,6 +33,7 @@ def request_color():
     global i
     lb1.insert(i, data.decode('utf-8'))
     i = i + 1
+    print(data.decode('utf-8'))
 
 def close_socket():
     message = sockCloseFuncName.encode()
